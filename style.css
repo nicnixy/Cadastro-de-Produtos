@@ -1,0 +1,80 @@
+:root {
+    --principal: #200C83;
+    --secundaria: #B39BF9;
+    --terciaria: #462AE8;
+}
+
+header {
+    background-color: var(--principal);
+    color: white;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#header-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+#card {
+    background-color: var(--secundaria);
+    border: 1px solid #ccc;
+    color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.input-products {
+    display: grid;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+button {
+padding: 10px;
+background-color: var(--terciaria);
+color: white;
+border-radius: 15px;
+font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--principal);
+}
+
+#content {
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: var(--secundaria);
+}
+
+table th {
+    background-color: var(--principal);
+    color: white;
+    padding: 5px;
+}
+
+table td {
+    padding: 5px;
+}
+
+table td img {
+    cursor: pointer;
+}

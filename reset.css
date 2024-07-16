@@ -1,0 +1,100 @@
+/* reset.css */
+
+/* Remove margem e padding padrão */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Define display block para os elementos HTML5 */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Define linha base de estilo */
+body {
+    line-height: 1;
+}
+
+/* Remove bullet points de listas */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove cotações de blockquote e q */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Definir largura 100% para imgs */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Definir largura 100% para elementos do áudio e vídeo */
+audio, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Definir box-sizing: border-box para todos os elementos */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Remove decorações de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove estilo padrão de botões */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Remove estilo padrão de input e textarea */
+input, textarea {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* Definir estilos de fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Outros ajustes globais */
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}

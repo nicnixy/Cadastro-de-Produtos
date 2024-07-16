@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de produtos</title>
+    <link rel="shortcut icon" href="Imagens/favicon-produto.png" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Imagens/header-produto.png" alt="">
+        <h1 id="header-title"> Controle de Produtos </h1>
+    </header>
+
+    <main>
+        <div id="card">
+            <div class="input-products">
+                <label for=""> Produto </label> <br>
+                <input type="text" id="product-name" placeholder="nome do produto">
+            </div>
+
+            <div class="input-products">
+                <label for=""> Preço </label> <br>
+                <input type="text" id="product-price" placeholder="R$ 0,00">
+            </div>
+
+            <button onclick="produto.Adicionar()" > Adicionar </button>
+            <button onclick="produto.Cancelar()"> Cancelar </button>
+        </div>
+
+        <div id="content">
+            <table border="1">
+                <thead>
+                    <th> ID </th>
+                    <th> PRODUTO </th>
+                    <th> PREÇO </th>
+                    <th> REMOVER </th>
+                </thead>
+
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="script.js"> </script>
+</body>
+</html>
